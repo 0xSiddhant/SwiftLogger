@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftlogger",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/0xSiddhant/SwiftLogger.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2c2a6a04a9c01e44c122e52ff1f5652b515d8653"
+      }
+    }
+  ],
+  "version" : 2
+}
