@@ -1,3 +1,3 @@
 # SwiftLogger
 
-A package which use to maintain console logs.
+This package provides APIs for logging content in the XCode console app in **debug mode**.
