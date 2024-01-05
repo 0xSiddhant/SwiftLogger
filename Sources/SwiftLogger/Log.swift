@@ -46,7 +46,7 @@ enum Log {
     fileprivate static func handleLog(level: LogLevel, str: String, shouldLogContext: Bool, context: Context) {
         var logComponents = [Date().toString(), "[\(level.prefix)]"]
         if shouldLogContext {
-            logComponents.insert("\(context.description)", at: 1)
+            logComponents.append("\(context.description)")
         }
         logComponents.append(" -> \(str)")
         
